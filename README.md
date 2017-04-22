@@ -29,7 +29,9 @@ password : **bigdata123**
 - Use VM GUI : when you open this OVA file in a VM environment you will be logged into the Ubuntu desktop
 - SSH via port 22
 - from host machine
+```
     $   ssh -l student  -p 2222 localhost
+```
 
 ## Software Installed
 - Based on [Ubuntu 16.04 LTS](http://ubuntu.org)
@@ -64,8 +66,7 @@ This VM supports running labs that we provide to students that  enrolled in our 
 Also you can run any open source labs as well.
 
 ## Changelog
-boring.   
-[changelog](changelog.md)
+See version history in [changelog](changelog.md)
 
 ## Feedback
 We welcome your feedback about the sandbox.
