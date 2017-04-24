@@ -1,0 +1,20 @@
+68f2142cfd2ca632a4afb0cc29cc358edbb21f8d|Dilip Biswal|dbiswal@us.ibm.com|Sat Feb 25 23:56:57 2017 -0800|[SQL] Duplicate test exception in SQLQueryTestSuite due to meta files(.DS_Store) on Mac
+89608cf26226e28f331a4695fee89394d0d38ea0|Wenchen Fan|wenchen@databricks.com|Sat Feb 25 23:01:44 2017 -0800|[SPARK-17075][SQL][FOLLOWUP] fix some minor issues and clean up the code
+6ab60542e8e803b1d91371a92f4aaef6a64106f6|Joseph K. Bradley|joseph@databricks.com|Sat Feb 25 22:24:08 2017 -0800|[MINOR][ML][DOC] Document default value for GeneralizedLinearRegression.linkPower
+410392ed75da64c6980fad5b450b352ee8377cb8|Devaraj K|devaraj@apache.org|Sat Feb 25 21:48:41 2017 +0000|[SPARK-15288][MESOS] Mesos dispatcher should handle gracefully when any thread gets UncaughtException
+fe07de9566b345c7ad6a985bf1fdf1062351f6cf|lvdongr|lv.dongdong@zte.com.cn|Sat Feb 25 21:47:02 2017 +0000|[SPARK-19673][SQL] "ThriftServer default app name is changed wrong"
+061bcfb869fe5f64edd9ee2352fecd70665da317|Boaz Mohar|boazmohar@gmail.com|Sat Feb 25 11:32:09 2017 -0800|[MINOR][DOCS] Fixes two problems in the SQL programing guide page
+8f0511ed49a353fb0745f320a84063ced5cc1857|Herman van Hovell|hvanhovell@databricks.com|Fri Feb 24 23:05:59 2017 -0800|[SPARK-19650] Commands should not trigger a Spark job
+4cb025afafe63d5871356d9dc38d58c1df0da996|Xiao Li|gatorsmile@gmail.com|Fri Feb 24 23:03:59 2017 -0800|[SPARK-19735][SQL] Remove HOLD_DDLTIME from Catalog APIs
+1b9ba258e086e2ba89a4f35a54106e2f8a38b525|Ramkumar Venkataraman|rvenkataraman@paypal.com|Sat Feb 25 02:18:22 2017 +0000|[MINOR][DOCS] Fix few typos in structured streaming doc
+fa7c582e9442b985a0493fb1dd15b3fb9b6031b4|Shubham Chopra|schopra31@bloomberg.net|Fri Feb 24 15:40:01 2017 -0800|[SPARK-15355][CORE] Proactive block replication
+330c3e33bd10f035f49cf3d13357eb2d6d90dabc|Jeff Zhang|zjffdu@apache.org|Fri Feb 24 15:04:42 2017 -0800|[SPARK-13330][PYSPARK] PYTHONHASHSEED is not propgated to python worker
+5f74148bb45912b9f867174de46e246215c93ee1|Imran Rashid|irashid@cloudera.com|Fri Feb 24 13:03:37 2017 -0800|[SPARK-19597][CORE] test case  for task deserialization errors
+5cbd3b59ba6735c59153416fa15721af6da09acf|Kay Ousterhout|kayousterhout@gmail.com|Fri Feb 24 11:42:45 2017 -0800|[SPARK-19560] Improve DAGScheduler tests.
+69d0da6373979ce5b2bcd52933b5a7660d893e88|wangzhenhua|wangzhenhua@huawei.com|Fri Feb 24 10:24:59 2017 -0800|[SPARK-17078][SQL] Show stats when explain
+05954f32e9bde56dc1f9a72028900d705185f6d7|Shuai Lin|linshuai2012@gmail.com|Fri Feb 24 10:24:01 2017 -0800|[SPARK-17075][SQL] Follow up: fix file line ending and improve the tests
+3e40f6c3d6fc0bcd828d09031fa3994925394889|Tejas Patil|tejasp@fb.com|Fri Feb 24 09:46:42 2017 -0800|[SPARK-17495][SQL] Add more tests for hive hash
+a920a4369434c84274866a09f61e402232c3b47c|jerryshao|sshao@hortonworks.com|Fri Feb 24 09:31:52 2017 -0800|[SPARK-19038][YARN] Avoid overwriting keytab configuration in yarn-client
+b0a8c16fecd4337f77bfbe4b45884254d7af52bd|jerryshao|sshao@hortonworks.com|Fri Feb 24 09:28:59 2017 -0800|[SPARK-19707][CORE] Improve the invalid path check for sc.addJar
+4a5e38f5747148022988631cae0248ae1affadd3|zero323|zero323@users.noreply.github.com|Fri Feb 24 08:22:30 2017 -0800|[SPARK-19161][PYTHON][SQL] Improving UDF Docstrings
+8f33731e796750e6f60dc9e2fc33a94d29d198b4|windpiger|songjun@outlook.com|Thu Feb 23 22:57:23 2017 -0800|[SPARK-19664][SQL] put hive.metastore.warehouse.dir in hadoopconf to overwrite its original value
