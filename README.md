@@ -3,15 +3,18 @@
 ## What is it?
 This is a virtual machine sandbox image to practice and learn Big Data and Data Science applications.
 
+## Why?
+Running Big Data applications (Spark / Cassandra / Hadoop) can be a little convoluted because of all the dependencies.  This can be even more of a  hassle in Windows.  We hope this VM Sandbox will make things easier.
+
 ## Who made it?
 Another open source project from [Elephant Scale](http://elephantscale.com).  
 We teach [Big Data & Data Science classes](http://elephantscale.com/training/).  We teach using virtual machine instances running on Amazon cloud. This sandbox is a replica of our Amazon image.  We are making this available to our students and public.
 
 ## Where to get it?
 Currently OVA based virtual machine image is available.  Docker images coming 'soon'.
-- Latest version : v1
-- Release date : 2017-04-21
-- [Download link](https://s3.amazonaws.com/elephantscale-public/sandbox/ES_Sandbox_V1.ova)
+- Latest version : V2
+- Release date : 2017-04-24
+- [Download link](https://s3.amazonaws.com/elephantscale-public/sandbox/ES_Sandbox_V2.ova)
 - For older versions see [changelog](changelog.md)
 
 ## How to run it?
@@ -33,6 +36,22 @@ password : **bigdata123**
     $   ssh -l student  -p 2222 localhost
 ```
 
+## What can I run?
+This VM is tested with following Big Data stack.
+- Spark v1.6 and  Spark v2.x
+- Cassandra v3.x
+- Kafka v0.10
+- Storm v1.x
+- Zookeeper v3.4.8
+
+
+## Labs
+If you are enrolled in our classes, you will get a lab bundle. Also you can run any open source labs as well.
+
+### Sample Labs
+1. [Running Spark](labs/running-spark.md)
+2. [Running Cassandra](labs/running-cassandra.md)
+
 ## Software Installed
 - Based on [Ubuntu 16.04 LTS](http://ubuntu.org)
 - Most software is in **/usr/local/apps**  (also **~/apps**)
@@ -53,17 +72,7 @@ password : **bigdata123**
 - Big Data applications:  
 Binaries are downloaded in ~/files folder  (same as ~/Downloads)
 
-## What can I run?
-This VM is tested with following Big Data stack.
-- Spark v1.6 and  Spark v2.x
-- Cassandra v3.x
-- Kafka v0.10
-- Storm v1.x
-- Zookeeper v3.4.8
 
-## Labs
-This VM supports running labs that we provide to students that  enrolled in our classes.  
-Also you can run any open source labs as well.
 
 ## Changelog
 See version history in [changelog](changelog.md)

@@ -6,10 +6,23 @@ To take a snapshot:
 
 Here is the Changelog in reverse order.
 
+## Version : V2,  Date : 2017-04-24
+[Download link](https://s3.amazonaws.com/elephantscale-public/sandbox/ES_Sandbox_V2.ova)
+- expanding disk to 100G
+        $   VBoxManage clonehd  ES_Sandbox_V1-disk1.vmdk   disk1.vdi  --format vdi
+        $   VBoxManage modifyhd disk1.vdi  --resize 100000
+    add this as disk1 (using VirtualBox settings)
+    when the machine boots up, use gparted  to resize partition
+
+- adding data dir
+    $  sudo mkdir /data
+    $  sudo chown $USER /data
+    $  ln -s /data  ~/data
+- uploading some data
+
 
 ## version : V1,  Date : 2017-04-21
-[Download link](https://s3.amazonaws.com/elephantscale-public/sandbox/ES_Sandbox_V1.ova
-)
+[Download link](https://s3.amazonaws.com/elephantscale-public/sandbox/ES_Sandbox_V1.ova)
 
 - increase CPU --> 2  
 increase memory --> 4096 M
