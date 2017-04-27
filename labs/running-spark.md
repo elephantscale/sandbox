@@ -2,9 +2,8 @@
 
 ## Screencast
 
-<iframe src="https://player.vimeo.com/video/215084996" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+[Sandbox spark Screencast](https://vimeo.com/215084996)
 
----
 Checkout our [Sandbox channel](https://vimeo.com/channels/1237347) for more videos.
 
 ## Script

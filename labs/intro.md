@@ -1,9 +1,8 @@
 # Sample Lab : Introduction to Sandbox
 
 ## Screencast
-<iframe src="https://player.vimeo.com/video/215096071" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+[Intro Screencast](https://vimeo.com/215096071)
 
----
 Checkout our [Sandbox channel](https://vimeo.com/channels/1237347) for more videos.
 
 ## How to login

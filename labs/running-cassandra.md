@@ -2,9 +2,8 @@
 
 ## Screencast
 
-<iframe src="https://player.vimeo.com/video/215085175" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+[Sandbox cassandra Screencast](https://vimeo.com/215085175)
 
----
 Checkout our [Sandbox channel](https://vimeo.com/channels/1237347) for more videos.
 
 ## Script
