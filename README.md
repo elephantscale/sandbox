@@ -11,7 +11,9 @@ Another open source project from [Elephant Scale](http://elephantscale.com).
 We teach [Big Data & Data Science classes](http://elephantscale.com/training/).  We teach using virtual machine instances running on Amazon cloud. This sandbox is a replica of our Amazon image.  We are making this available to our students and public.
 
 ## Where to get it?
-Currently OVA based virtual machine image is available.  Docker images coming 'soon'.
+Currently OVA based virtual machine image is available.  Docker images coming 'soon'.  
+Note : These are **LARGE** downloads (~10G in size).  Download when you have good bandwidth.
+
 - Latest version : V2
 - Release date : 2017-04-24
 - [Download link](https://s3.amazonaws.com/elephantscale-public/sandbox/ES_Sandbox_V2.ova)
@@ -27,6 +29,8 @@ Currently OVA based virtual machine image is available.  Docker images coming 's
 ## Access
 Login : **student**  
 password : **bigdata123**  
+
+See [intro lab](labs/intro.md) for a screencast.
 
 **Connectivity:**
 - Use VM GUI : when you open this OVA file in a VM environment you will be logged into the Ubuntu desktop
@@ -49,8 +53,11 @@ This VM is tested with following Big Data stack.
 If you are enrolled in our classes, you will get a lab bundle. Also you can run any open source labs as well.
 
 ### Sample Labs
-1. [Running Spark](labs/running-spark.md)
-2. [Running Cassandra](labs/running-cassandra.md)
+1. [Introduction](labs/intro.md)
+2. [Running Spark](labs/running-spark.md)
+3. [Running Cassandra](labs/running-cassandra.md)
+
+Checkout our [Sandbox channel](https://vimeo.com/channels/1237347) for more videos.
 
 ## Software Installed
 - Based on [Ubuntu 16.04 LTS](http://ubuntu.org)
