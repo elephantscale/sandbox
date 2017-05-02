@@ -13,7 +13,7 @@ In terminal
 ```bash
   $   cd
   # unpack
-  $   tar xvf files/spark-2.1.0-bin-hadoop2.7.tgz
+  $   tar xvf files/cassandra-dsc-3.0.9.tgz
   $   mv dsc-cassandra-3.0.9/ cassandra
 
   # create directories
