@@ -14,9 +14,9 @@ We teach [Big Data & Data Science classes](http://elephantscale.com/training/). 
 Currently OVA based virtual machine image is available.  Docker images coming 'soon'.  
 Note : These are **LARGE** downloads (~10G in size).  Download when you have good bandwidth.
 
-- Latest version : V2
-- Release date : 2017-04-24
-- [Download link](https://s3.amazonaws.com/elephantscale-public/sandbox/ES_Sandbox_V2.ova)
+- Latest version : V3
+- Release date : 2017-05-02
+- [Download link](https://s3.amazonaws.com/elephantscale-public/sandbox/ES_Sandbox_V3.ova)
 - For older versions see [changelog](changelog.md)
 
 ## How to run it?

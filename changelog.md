@@ -6,6 +6,34 @@ To take a snapshot:
 
 Here is the Changelog in reverse order.
 
+## Version : V3,  Date : 2017-05-02
+[Download link](https://s3.amazonaws.com/elephantscale-public/sandbox/ES_Sandbox_V3.ova)
+- update system
+```
+  $  sudo apt update;   sudo apt upgrade -y
+```
+
+- making Python3 as default python.  Use `python3` and `pip3`  run commands.  
+To use Anaconda as default python, uncomment the line in  `~/.bashrc`
+```
+    #export PATH=/usr/local/apps/anaconda/bin:$PATH
+```
+
+- installed python libs
+```bash
+  $  sudo apt install -y python3-pip  python3-dev  python3-numpy
+```
+
+- installed Jupyter
+```bash
+  $   sudo pip3 install jupyter
+```
+
+- installed Tensorflow libraries
+```bash
+  $  sudo pip3 install tensorflow
+```
+
 ## Version : V2,  Date : 2017-04-24
 [Download link](https://s3.amazonaws.com/elephantscale-public/sandbox/ES_Sandbox_V2.ova)
 - expanding disk to 100G
