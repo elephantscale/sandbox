@@ -6,9 +6,15 @@ This is a virtual machine sandbox image to practice and learn Big Data and Data 
 ## Why?
 Running Big Data applications (Spark / Cassandra / Hadoop) can be a little convoluted because of all the dependencies.  This can be even more of a  hassle in Windows.  We hope this VM Sandbox will make things easier.
 
-## Who made it?
-Another open source project from [Elephant Scale](http://elephantscale.com).  
-We teach [Big Data & Data Science classes](http://elephantscale.com/training/).  We teach using virtual machine instances running on Amazon cloud. This sandbox is a replica of our Amazon image.  We are making this available to our students and public.
+## Provided By Elephant Scale
+
+[Elephant Scale](http://elephantscale.com) teaches [Big Data & Data Science classes](http://elephantscale.com/training/).   This sandbox is a replica of our virtualized environment.  
+
+#### Looking for training?
+[Checkout our training classes in Big Data and Data Science](http://elephantscale.com/training/)
+
+[Read more about the Sanxbox](http://elephantscale.com/sandbox/)
+
 
 ## Where to get it?
 Currently OVA based virtual machine image is available.  Docker images coming 'soon'.  
