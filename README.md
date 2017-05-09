@@ -58,10 +58,10 @@ This VM is tested with following Big Data stack.
 ## Labs
 If you are enrolled in our classes, you will get a lab bundle. Also you can run any open source labs as well.
 
-### Sample Labs
-1. [Introduction](labs/intro.md)
-2. [Running Spark](labs/running-spark.md)
-3. [Running Cassandra](labs/running-cassandra.md)
+### Tutorials
+1. [Introduction](tutorials/intro.md)
+2. [Running Spark](tutorials/running-spark.md)
+3. [Running Cassandra](tutorials/running-cassandra.md)
 
 Checkout our [Sandbox channel](https://vimeo.com/channels/1237347) for more videos.
 
