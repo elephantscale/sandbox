@@ -20,9 +20,9 @@ Running Big Data applications (Spark / Cassandra / Hadoop) can be a little convo
 Currently OVA based virtual machine image is available.  Docker images coming 'soon'.  
 Note : These are **LARGE** downloads (~10G in size).  Download when you have good bandwidth.
 
-- Latest version : V3
-- Release date : 2017-05-02
-- [Download link](https://s3.amazonaws.com/elephantscale-public/sandbox/ES_Sandbox_V3.ova)
+- Latest version : V4
+- Release date : 2017-07-14
+- [Download link](https://s3.amazonaws.com/elephantscale-public/sandbox/ES_Sandbox_V4.ova)
 - For older versions see [changelog](changelog.md)
 
 ## How to run it?
@@ -48,7 +48,7 @@ See [intro lab](labs/intro.md) for a screencast.
 
 ## What can I run?
 This VM is tested with following Big Data stack.
-- Spark v1.6 and  Spark v2.x
+- Spark v2.x and v1.6
 - Cassandra v3.x
 - Kafka v0.10
 - Storm v1.x
@@ -68,14 +68,18 @@ Checkout our [Sandbox channel](https://vimeo.com/channels/1237347) for more vide
 ## Software Installed
 - Based on [Ubuntu 16.04 LTS](http://ubuntu.org)
 - Most software is in **/usr/local/apps**  (also **~/apps**)
-- Dev environment : Java / Scala
+- Java / Scala
     - [Oracle JDK v1.8.0_u131](http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html)
     - [Maven v3.5.0](https://maven.apache.org/)
     - [Scala v2.12.2](http://scala-lang.org/)
     - [SBT v0.13.15](http://www.scala-sbt.org/)
-- Dev environment : Python
+- Metrics
+    - [Graphite](https://graphiteapp.org/)
+    - [Grafana](https://grafana.com/)
+- Python
     - Python 3.6
     - [Anaconda v4.3.1](https://www.continuum.io/anaconda-overview)
+    - [Jupyter](http://jupyter.org/)
 - Editors :
     - [Sublime 3](https://www.sublimetext.com/)
     - [Atom](https://atom.io/)
@@ -83,7 +87,7 @@ Checkout our [Sandbox channel](https://vimeo.com/channels/1237347) for more vide
     - [Eclipse Neon](https://eclipse.org/)  - ~/apps/eclipse/java-neon/eclipse/eclipse
     - [IntelliJ Community Edition ](https://www.jetbrains.com/idea/) - ~/apps/idea/bin/idea.sh
 - Big Data applications:  
-Binaries are downloaded in ~/files folder  (same as ~/Downloads)
+    - Supported : Spark, Cassandra, Kafka, Storm, Zookeeper
 
 
 
