@@ -8,7 +8,7 @@ Running Big Data applications (Spark / Cassandra / Hadoop) can be a little convo
 
 ## Provided By Elephant Scale
 
-[Elephant Scale](http://elephantscale.com) teaches [Big Data & Data Science classes](http://elephantscale.com/training/).   This sandbox is a replica of our virtualized environment.  
+[Elephant Scale](http://elephantscale.com) teaches [Big Data & AI / Data Science classes](http://elephantscale.com/training/).   This sandbox is a replica of our virtualized environment.  
 
 #### Looking for training?
 [Checkout our training classes in Big Data and Data Science](http://elephantscale.com/training/)
@@ -18,11 +18,11 @@ Running Big Data applications (Spark / Cassandra / Hadoop) can be a little convo
 
 ## Where to get it?
 Currently OVA based virtual machine image is available.  Docker images coming 'soon'.  
-Note : These are **LARGE** downloads (~10G in size).  Download when you have good bandwidth.
+Note : These are **LARGE** downloads (10G+ in size).  Download when you have good bandwidth.
 
-- Latest version : V4
-- Release date : 2017-07-14
-- [Download link](https://s3.amazonaws.com/elephantscale-public/sandbox/ES_Sandbox_V4.ova)
+- Latest version : V5
+- Release date : 2017-11-10
+- [Download link](https://s3.amazonaws.com/elephantscale-public/sandbox/ES_Sandbox_V5.ova)
 - For older versions see [changelog](changelog.md)
 
 ## How to run it?
@@ -49,6 +49,7 @@ See [intro lab](labs/intro.md) for a screencast.
 ## What can I run?
 This VM is tested with following Big Data stack.
 - Spark v2.x and v1.6
+- BigDL 0.3+
 - Cassandra v3.x
 - Kafka v0.10
 - Storm v1.x
@@ -62,6 +63,7 @@ If you are enrolled in our classes, you will get a lab bundle. Also you can run 
 1. [Introduction](tutorials/intro.md)
 2. [Running Spark](tutorials/running-spark.md)
 3. [Running Cassandra](tutorials/running-cassandra.md)
+3. [Running BigDL](tutorials/running-bigdl.md)
 
 Checkout our [Sandbox channel](https://vimeo.com/channels/1237347) for more videos.
 
@@ -86,8 +88,13 @@ Checkout our [Sandbox channel](https://vimeo.com/channels/1237347) for more vide
 - IDEs
     - [Eclipse Neon](https://eclipse.org/)  - ~/apps/eclipse/java-neon/eclipse/eclipse
     - [IntelliJ Community Edition ](https://www.jetbrains.com/idea/) - ~/apps/idea/bin/idea.sh
-- Big Data applications:  
-    - Supported : Spark, Cassandra, Kafka, Storm, Zookeeper
+- Big Data applications supported:
+    - Spark
+    - BigDL
+    - Cassandra
+    - Kafka
+    - Storm
+    - Zookeeper
 
 
 
