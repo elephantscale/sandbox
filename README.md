@@ -20,9 +20,9 @@ Running Big Data applications (Spark / Cassandra / Hadoop) can be a little convo
 Currently OVA based virtual machine image is available.  Docker images coming 'soon'.  
 Note : These are **LARGE** downloads (10G+ in size).  Download when you have good bandwidth.
 
-- Latest version : V5
-- Release date : 2017-11-10
-- [Download link](https://s3.amazonaws.com/elephantscale-public/sandbox/ES_Sandbox_V5.ova)
+- Latest version : v6
+- Release date : 2017-11-12
+- [Download link](https://s3.amazonaws.com/elephantscale-public/sandbox/ES_Sandbox_v6.ova)
 - For older versions see [changelog](changelog.md)
 
 ## How to run it?
