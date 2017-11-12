@@ -63,7 +63,8 @@ If you are enrolled in our classes, you will get a lab bundle. Also you can run 
 1. [Introduction](tutorials/intro.md)
 2. [Running Spark](tutorials/running-spark.md)
 3. [Running Cassandra](tutorials/running-cassandra.md)
-3. [Running BigDL](tutorials/running-bigdl.md)
+4. [Choosing a Python version](tutorials/python-versions.md)
+5. [Running BigDL](tutorials/running-bigdl.md)
 
 Checkout our [Sandbox channel](https://vimeo.com/channels/1237347) for more videos.
 
